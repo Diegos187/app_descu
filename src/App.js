@@ -5,7 +5,7 @@ import 'animate.css';
 import SearchComponent from './components/SearchComponent'; // Importa el componente de búsqueda
 
 const products = [
-  { id: 1, name: 'Producto 1', liked: false, category: 'Saludable', image: 'https://img.hellofresh.com/w_3840,q_auto,f_auto,c_fill,fl_lossy/hellofresh_website/es/cms/SEO/recipes/albondigas-caseras-de-cerdo-con-salsa-barbacoa.jpeg', description: 'Los mejores platillos para cuidar tu salud', price: 5000, extraInfo: 'Condiciones:...' },
+  { id: 1, name: 'Produc 1', liked: false, category: 'Saludable', image: 'https://img.hellofresh.com/w_3840,q_auto,f_auto,c_fill,fl_lossy/hellofresh_website/es/cms/SEO/recipes/albondigas-caseras-de-cerdo-con-salsa-barbacoa.jpeg', description: 'Los mejores platillos para cuidar tu salud', price: 5000, extraInfo: 'Condiciones:...' },
   { id: 2, name: 'Producto 2', liked: false, category: 'Hamburguesas', image: 'https://s3.abcstatics.com/media/gurmesevilla/2012/01/comida-rapida-casera.jpg', description: 'Las mejore HAMBURGUESAS del país', price: 3000, extraInfo: 'Condiciones:...' },
   { id: 3, name: 'Producto 3', liked: false, category: 'Tacos', image: 'https://content.skyscnr.com/m/2dcd7d0e6f086057/original/GettyImages-186142785.jpg', description: 'Ven a probar los mejores TACOS de México a Chile', price: 2000, extraInfo: 'Condiciones:...' },
   { id: 4, name: 'Producto 4', liked: false, category: 'Pizzas', image: 'https://www.cocinacaserayfacil.net/wp-content/uploads/2020/03/Platos-de-comida-que-pides-a-domicilio-y-puedes-hacer-en-casa-945x630.jpg', description: 'Ricas PIZZAS lleve sus pizzas', price: 8000, extraInfo: 'Condiciones:...' },
