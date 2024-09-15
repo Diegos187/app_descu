@@ -79,9 +79,9 @@ body {
   color: white;
 }
 
-.hola {
+/* .hola {
   background-image: linear-gradient(to right, #253d59, #2584bb);
-}
+} */
 
 
 .bienvenida-content {
@@ -90,6 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .blur-background {
@@ -98,10 +99,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://i.ibb.co/kmy4sq2/Designer-1.jpg'); /* La imagen de fondo */
+  background-image: url('https://marketingastronomico.com/wp-content/uploads/2017/09/Airbnb-Restaurant-Reservations-Kin-Khao.jpg'); /* La imagen de fondo */
   background-size:cover;
   background-position: center;
-  filter: blur(2px); /* Añade el desenfoque solo al fondo */
+  filter: blur(1px); /* Añade el desenfoque solo al fondo */
   z-index: -1;
 }
 
@@ -163,6 +164,8 @@ body {
   background-color: #005f73;
 }
 
+/* SECCION DE LOS PRODUCTOS */
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Dos columnas por fila */
@@ -173,15 +176,18 @@ body {
 }
 
 .product-card {
-  background-color: #edf9fb;
+  background-color: #d2ebf0;
   padding: 20px;
-  border: 1px solid #edf9fb;
+  border: 1px solid #d2ebf0;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
   transition: all 0.3s ease; /* Transición suave para el card */
 }
+
+
+/* ESTO ES PARA LA PARTE DE CONDICIONES */
 
 .product-card.expanded {
   max-height: 400px; /* Expande hasta una altura suficiente */
